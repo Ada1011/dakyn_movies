@@ -2,7 +2,7 @@
 # 🎬 Biblioteca de Películas - Ionic 6 + Angular
 
 Aplicación móvil desarrollada como parte del curso *Legacy - Ionic 6: Crear aplicaciones iOS, Android con Angular*.  
-Permite explorar, buscar y guardar películas favoritas mediante el consumo de una API externa (TMDB).
+Permite explorar, buscar y guardar películas favoritas mediante el consumo de una API externa.
 
 ---
 
