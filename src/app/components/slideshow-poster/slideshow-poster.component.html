@@ -1,0 +1,10 @@
+<swiper-container [options]="swiperConfig" >
+  <swiper-slide
+    *ngFor="let pelicula of peliculas "
+    style="position: relative; text-align: center"
+  >
+    <ion-card mode="md" (click)="verDetalle(pelicula.id.toString())" >
+      <img class="poster poster-responsive"  [src]="pelicula.poster_path | imagen" />
+    </ion-card>
+  </swiper-slide>
+</swiper-container>

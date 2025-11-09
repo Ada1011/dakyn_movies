@@ -1,0 +1,13 @@
+swiper-container {
+  overflow: hidden !important;
+  display: block !important;
+}
+
+swiper-slide {
+  width: calc(33.333% - 10px) !important; // Fuerza ancho para 3 slides (ajusta según spaceBetween)
+  flex-shrink: 0 !important; // Evita que se encojan
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
